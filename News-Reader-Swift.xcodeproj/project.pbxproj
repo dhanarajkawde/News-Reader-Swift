@@ -7,23 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183E68752B1EF1240000FB35 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E68742B1EF1240000FB35 /* Constants.swift */; };
 		18D0A34D2B1E855900FC0856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0A34C2B1E855900FC0856 /* AppDelegate.swift */; };
-		18D0A34F2B1E855900FC0856 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0A34E2B1E855900FC0856 /* SceneDelegate.swift */; };
-		18D0A3512B1E855900FC0856 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0A3502B1E855900FC0856 /* ViewController.swift */; };
+		18D0A3512B1E855900FC0856 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0A3502B1E855900FC0856 /* NewsListViewController.swift */; };
 		18D0A3542B1E855900FC0856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D0A3522B1E855900FC0856 /* Main.storyboard */; };
 		18D0A3562B1E855B00FC0856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D0A3552B1E855B00FC0856 /* Assets.xcassets */; };
 		18D0A3592B1E855B00FC0856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D0A3572B1E855B00FC0856 /* LaunchScreen.storyboard */; };
+		18D0A3682B1E864B00FC0856 /* NewsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0A3672B1E864B00FC0856 /* NewsDetailsViewController.swift */; };
+		18D0A36A2B1E86B100FC0856 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0A3692B1E86B100FC0856 /* News.swift */; };
+		18D0A36D2B1E86E500FC0856 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 18D0A36C2B1E86E500FC0856 /* SDWebImage */; };
+		18D0A3702B1E872B00FC0856 /* NewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0A36E2B1E872B00FC0856 /* NewsCollectionViewCell.swift */; };
+		18D0A3712B1E872B00FC0856 /* NewsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D0A36F2B1E872B00FC0856 /* NewsCollectionViewCell.xib */; };
+		18D0A3742B1E8D4600FC0856 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0A3732B1E8D4600FC0856 /* APIService.swift */; };
+		18D0A3772B1E95B500FC0856 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0A3762B1E95B500FC0856 /* Extension.swift */; };
+		18D0A37A2B1E9B2400FC0856 /* NewsDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0A3792B1E9B2400FC0856 /* NewsDataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		183E68742B1EF1240000FB35 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		18D0A3492B1E855900FC0856 /* News-Reader-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "News-Reader-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D0A34C2B1E855900FC0856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18D0A34E2B1E855900FC0856 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18D0A3502B1E855900FC0856 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18D0A3502B1E855900FC0856 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
 		18D0A3532B1E855900FC0856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18D0A3552B1E855B00FC0856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D0A3582B1E855B00FC0856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D0A35A2B1E855B00FC0856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D0A3672B1E864B00FC0856 /* NewsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailsViewController.swift; sourceTree = "<group>"; };
+		18D0A3692B1E86B100FC0856 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		18D0A36E2B1E872B00FC0856 /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		18D0A36F2B1E872B00FC0856 /* NewsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCollectionViewCell.xib; sourceTree = "<group>"; };
+		18D0A3732B1E8D4600FC0856 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		18D0A3762B1E95B500FC0856 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		18D0A3792B1E9B2400FC0856 /* NewsDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D0A36D2B1E86E500FC0856 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,102 @@
 		18D0A34B2B1E855900FC0856 /* News-Reader-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				18D0A3752B1E959F00FC0856 /* Extension */,
+				18D0A3602B1E859400FC0856 /* App Utilities */,
+				18D0A3642B1E861300FC0856 /* Utilities */,
+				18D0A3722B1E8D3600FC0856 /* APIService */,
+				18D0A3662B1E862800FC0856 /* Model */,
+				18D0A3652B1E861F00FC0856 /* Cell */,
+				18D0A3622B1E85E200FC0856 /* Controllers */,
+				18D0A3632B1E85FE00FC0856 /* View */,
+				18D0A3782B1E9B0F00FC0856 /* DataController */,
+				18D0A3612B1E85D100FC0856 /* Resource */,
+			);
+			path = "News-Reader-Swift";
+			sourceTree = "<group>";
+		};
+		18D0A3602B1E859400FC0856 /* App Utilities */ = {
+			isa = PBXGroup;
+			children = (
 				18D0A34C2B1E855900FC0856 /* AppDelegate.swift */,
-				18D0A34E2B1E855900FC0856 /* SceneDelegate.swift */,
-				18D0A3502B1E855900FC0856 /* ViewController.swift */,
-				18D0A3522B1E855900FC0856 /* Main.storyboard */,
-				18D0A3552B1E855B00FC0856 /* Assets.xcassets */,
 				18D0A3572B1E855B00FC0856 /* LaunchScreen.storyboard */,
 				18D0A35A2B1E855B00FC0856 /* Info.plist */,
 			);
-			path = "News-Reader-Swift";
+			path = "App Utilities";
+			sourceTree = "<group>";
+		};
+		18D0A3612B1E85D100FC0856 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				18D0A3552B1E855B00FC0856 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		18D0A3622B1E85E200FC0856 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18D0A3502B1E855900FC0856 /* NewsListViewController.swift */,
+				18D0A3672B1E864B00FC0856 /* NewsDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18D0A3632B1E85FE00FC0856 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18D0A3522B1E855900FC0856 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18D0A3642B1E861300FC0856 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				183E68742B1EF1240000FB35 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		18D0A3652B1E861F00FC0856 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				18D0A36E2B1E872B00FC0856 /* NewsCollectionViewCell.swift */,
+				18D0A36F2B1E872B00FC0856 /* NewsCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		18D0A3662B1E862800FC0856 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18D0A3692B1E86B100FC0856 /* News.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18D0A3722B1E8D3600FC0856 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				18D0A3732B1E8D4600FC0856 /* APIService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		18D0A3752B1E959F00FC0856 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18D0A3762B1E95B500FC0856 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		18D0A3782B1E9B0F00FC0856 /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				18D0A3792B1E9B2400FC0856 /* NewsDataController.swift */,
+			);
+			path = DataController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +186,9 @@
 			dependencies = (
 			);
 			name = "News-Reader-Swift";
+			packageProductDependencies = (
+				18D0A36C2B1E86E500FC0856 /* SDWebImage */,
+			);
 			productName = "News-Reader-Swift";
 			productReference = 18D0A3492B1E855900FC0856 /* News-Reader-Swift.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +217,9 @@
 				Base,
 			);
 			mainGroup = 18D0A3402B1E855900FC0856;
+			packageReferences = (
+				18D0A36B2B1E86E500FC0856 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 18D0A34A2B1E855900FC0856 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +237,7 @@
 				18D0A3592B1E855B00FC0856 /* LaunchScreen.storyboard in Resources */,
 				18D0A3562B1E855B00FC0856 /* Assets.xcassets in Resources */,
 				18D0A3542B1E855900FC0856 /* Main.storyboard in Resources */,
+				18D0A3712B1E872B00FC0856 /* NewsCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +248,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D0A3512B1E855900FC0856 /* ViewController.swift in Sources */,
+				18D0A3682B1E864B00FC0856 /* NewsDetailsViewController.swift in Sources */,
+				18D0A3512B1E855900FC0856 /* NewsListViewController.swift in Sources */,
+				18D0A3772B1E95B500FC0856 /* Extension.swift in Sources */,
+				18D0A36A2B1E86B100FC0856 /* News.swift in Sources */,
 				18D0A34D2B1E855900FC0856 /* AppDelegate.swift in Sources */,
-				18D0A34F2B1E855900FC0856 /* SceneDelegate.swift in Sources */,
+				18D0A3742B1E8D4600FC0856 /* APIService.swift in Sources */,
+				18D0A37A2B1E9B2400FC0856 /* NewsDataController.swift in Sources */,
+				18D0A3702B1E872B00FC0856 /* NewsCollectionViewCell.swift in Sources */,
+				183E68752B1EF1240000FB35 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,12 +404,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "News-Reader-Swift/Info.plist";
+				INFOPLIST_FILE = "News-Reader-Swift/App Utilities/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,12 +432,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "News-Reader-Swift/Info.plist";
+				INFOPLIST_FILE = "News-Reader-Swift/App Utilities/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +474,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18D0A36B2B1E86E500FC0856 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18D0A36C2B1E86E500FC0856 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18D0A36B2B1E86E500FC0856 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 18D0A3412B1E855900FC0856 /* Project object */;
 }
